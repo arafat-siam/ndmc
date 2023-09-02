@@ -353,6 +353,9 @@ color:${e.palette.text.main}
     padding: 0;
     box-sizing: border-box;
   }
+  html {
+    scroll-behavior: smooth;
+  }
   body {
     background-image: linear-gradient(
         rgba(131, 131, 134, 0) 29px,
