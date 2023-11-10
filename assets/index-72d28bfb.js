@@ -980,7 +980,7 @@ color:${e.palette.text.main}
     border-color: none;
   }
 
-  .css-igs3ac {
+  & fieldset {
     border: none;
   }
 
@@ -1233,12 +1233,12 @@ color:${e.palette.text.main}
   padding: 90px 30px;
   display: flex;
   ${dn}
-  background: rgb(49,48,68);
+  background: rgb(78,47,196);
   background: linear-gradient(
     45deg,
-    rgba(49, 48, 68, 1) 9%,
-    rgba(22, 16, 44, 1) 29%,
-    rgba(15, 8, 44, 1) 49%
+    rgba(78, 47, 196, 1) 0%,
+    rgba(120, 111, 239, 1) 37%,
+    rgba(96, 76, 187, 1) 64%
   );
   color: #fff;
   margin: 10px;
@@ -1264,4 +1264,4 @@ color:${e.palette.text.main}
   &:hover {
     transform: scale(1.003);
   }
-`,bH=()=>d.jsx(gH,{children:d.jsx(vH,{children:d.jsxs($5,{container:!0,columns:{xs:12,lg:12,md:12},rowGap:"5rem",children:[d.jsxs(Ie,{item:!0,lg:6,xs:12,md:6,children:[d.jsx(at,{design:{size:"md",weight:"bold"},children:"Notre Dame Math Club"}),d.jsx(yH,{children:d.jsx(at,{design:{size:"xs",weight:"light"},children:"A vibrant community of math enthusiasts at Notre Dame College"})})]}),d.jsxs(Ie,{item:!0,lg:4,xs:12,md:4,children:[d.jsx(at,{design:{size:"sm"},children:"Address"}),d.jsxs(Xm,{gap:"5px",children:[d.jsx(ln,{icon:"map-pin",icontype:"line"}),d.jsx(at,{design:{size:"xs",weight:"light"},children:"4th Floor, Ganguli Building, Notre Dame College,Dhaka"})]}),d.jsxs(Xm,{gap:".5rem",children:[d.jsx(Lc,{href:"https://www.facebook.com/official.ndmc/",target:"_blank",children:d.jsx(Ap,{size:"50px",children:d.jsx(ln,{icon:"facebook",icontype:"fill"})})}),d.jsx(Lc,{href:"https://www.youtube.com/@notredamemathclub",target:"_blank",children:d.jsx(Ap,{size:"50px",children:d.jsx(ln,{icon:"youtube",icontype:"fill"})})}),d.jsx(Lc,{href:"https://www.linkedin.com/company/ndmc-official/?originalSubdomain=bd",target:"_blank",children:d.jsx(Ap,{size:"50px",children:d.jsx(ln,{icon:"linkedin",icontype:"fill"})})})]})]})]})})}),xH=()=>{const[e,t]=Sa(M5),n=j1({...hH(e)}),[r,o]=x.useState(!0);return x.useEffect(()=>{const i=localStorage.getItem("mode");t(i||e)},[]),x.useEffect(()=>{if(r){o(!1);return}localStorage.setItem("mode",e)},[e]),d.jsx(cn,{sx:{overflow:"hidden"},children:d.jsxs(rT,{theme:n,children:[d.jsx(Bz,{}),d.jsxs(cn,{sx:{width:"100%",position:"relative"},children:[d.jsx(Fz,{}),d.jsx(Uz,{maxWidth:"xl",children:d.jsx(Vz,{sx:{padding:"0px 20px 0px 20px"},children:d.jsx(pH,{})})}),d.jsx(bH,{})]})]})})},SH=()=>{const{pathname:e}=Ll();return x.useEffect(()=>{window.scrollTo(0,0)},[e]),null};Np.createRoot(document.getElementById("root")).render(d.jsx(Te.StrictMode,{children:d.jsxs(DE,{children:[d.jsx(kx,{}),d.jsxs(bz,{children:[d.jsx(SH,{}),d.jsx(xH,{})]})]})}));
+`,bH=()=>d.jsx(gH,{children:d.jsx(vH,{children:d.jsxs($5,{container:!0,columns:{xs:12,lg:12,md:12},rowGap:"5rem",children:[d.jsxs(Ie,{item:!0,lg:6,xs:12,md:6,children:[d.jsx(at,{design:{size:"md",weight:"bold"},children:"Notre Dame Math Club"}),d.jsx(yH,{children:d.jsx(at,{design:{size:"xs",weight:"light"},children:"A vibrant community of math enthusiasts at Notre Dame College"})})]}),d.jsxs(Ie,{item:!0,lg:4,xs:12,md:4,children:[d.jsx(at,{design:{size:"sm"},children:"Address"}),d.jsxs(Xm,{gap:"5px",children:[d.jsx(ln,{icon:"map-pin",icontype:"line"}),d.jsx(at,{design:{size:"xs",weight:"light"},children:"4th Floor, Ganguli Building, Notre Dame College,Dhaka"})]}),d.jsxs(Xm,{style:{width:"100%",gap:".5rem"},children:[d.jsx(Lc,{href:"https://www.facebook.com/official.ndmc/",target:"_blank",children:d.jsx(Ap,{size:"50px",children:d.jsx(ln,{icon:"facebook",icontype:"fill"})})}),d.jsx(Lc,{href:"https://www.youtube.com/@notredamemathclub",target:"_blank",children:d.jsx(Ap,{size:"50px",children:d.jsx(ln,{icon:"youtube",icontype:"fill"})})}),d.jsx(Lc,{href:"https://www.linkedin.com/company/ndmc-official/?originalSubdomain=bd",target:"_blank",children:d.jsx(Ap,{size:"50px",children:d.jsx(ln,{icon:"linkedin",icontype:"fill"})})})]})]})]})})}),xH=()=>{const[e,t]=Sa(M5),n=j1({...hH(e)}),[r,o]=x.useState(!0);return x.useEffect(()=>{const i=localStorage.getItem("mode");t(i||e)},[]),x.useEffect(()=>{if(r){o(!1);return}localStorage.setItem("mode",e)},[e]),d.jsx(cn,{sx:{overflow:"hidden"},children:d.jsxs(rT,{theme:n,children:[d.jsx(Bz,{}),d.jsxs(cn,{sx:{width:"100%",position:"relative"},children:[d.jsx(Fz,{}),d.jsx(Uz,{maxWidth:"xl",children:d.jsx(Vz,{sx:{padding:"0px 20px 0px 20px"},children:d.jsx(pH,{})})}),d.jsx(bH,{})]})]})})},SH=()=>{const{pathname:e}=Ll();return x.useEffect(()=>{window.scrollTo(0,0)},[e]),null};Np.createRoot(document.getElementById("root")).render(d.jsx(Te.StrictMode,{children:d.jsxs(DE,{children:[d.jsx(kx,{}),d.jsxs(bz,{children:[d.jsx(SH,{}),d.jsx(xH,{})]})]})}));
