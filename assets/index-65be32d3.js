@@ -959,6 +959,10 @@ color:${e.palette.text.main}
     border-color: none;
   }
 
+  .css-igs3ac {
+    border: none;
+  }
+
   fieldset.MuiOutlinedInput-notchedOutline.css-9425fu-MuiOutlinedInput-notchedOutline {
     border: none;
   }
