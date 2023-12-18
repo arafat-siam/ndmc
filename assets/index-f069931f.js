@@ -732,7 +732,14 @@ color:${e.palette.text.main}
     font-size: ${()=>`${Ft.lg}rem`};
   }
   ${e=>e.theme.breakpoints.down("sm")} {
-    font-size: ${()=>`${Ft.gsm}rem`};
+    font-size: ${()=>`${Ft.sm}rem`};
+  }
+
+  @media screen and (min-width: 1238px) and (max-width: 1360px) {
+    font-size: 2.9rem;
+  }
+  @media screen and (min-width: 598px) and (max-width: 626px) {
+    font-size: 2.4rem;
   }
 `,PQ=Y(Rn)(({theme:e})=>`
   width:100%;
