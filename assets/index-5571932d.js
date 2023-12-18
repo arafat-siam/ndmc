@@ -1468,7 +1468,7 @@ color:${e.palette.text.main}
   &:active {
     transform: scale(0.96);
 
-    &::before {
+    /* &::before {
       position: absolute;
       content: "";
       width: 150%;
@@ -1535,7 +1535,7 @@ color:${e.palette.text.main}
       background-size: 15% 15%, 20% 20%, 18% 18%, 20% 20%, 15% 15%, 20% 20%,
         18% 18%;
       animation: greenbottomBubbles ease-in-out 0.6s forwards infinite;
-    }
+    } */
   }
 `,Pv={title:"4rd Annual Notre Dame Math Festival",description:"Notre Dame Math Club (NDMC) is one of the most promising, versatile,and eminent co-curricular activities clubs of Notre Dame College,Dhaka -1000. Md. Rezaul Karim, the then Lecturer of Mathematics atNotre Dame College, took the initiative ",image:"https://res.cloudinary.com/ndmc/image/upload/v1693571451/events/fd34525d535924d6a74741d893613180.jpg",fbLink:"https://www.facebook.com/"},Soe=()=>{To("Event Registration");const[e,t]=Ir(woe);Cu(Wb);const n=Cu(Om),r=async()=>{const o=await Lne();t(o)};return x.useEffect(()=>{r()},[]),f.jsxs(ir,{style:{display:"block",minHeight:"62vh"},children:[f.jsxs(Ks,{children:[f.jsx(Cr,{children:"Registration"}),f.jsx(Kr,{children:"Register Now"}),f.jsx(Ys,{pagePath:[{name:"Event Registration",active:!0}]})]}),f.jsx(bl,{children:f.jsxs(lx,{children:[f.jsxs(qe,{container:!0,columns:{lg:12,md:12,xs:12,sm:12},gap:"4rem",children:[f.jsx(qe,{item:!0,lg:5,md:12,xs:12,children:f.jsx(boe,{url:Pv.image})}),f.jsxs(qe,{item:!0,lg:6,md:12,xs:12,style:{display:"flex",flexDirection:"column",justifyContent:"center"},children:[f.jsx(vt,{design:{size:"md",weight:"bold"},sx:{mb:2},children:Pv.title}),f.jsx(vt,{design:{size:"xs"},children:Pv.description}),f.jsxs(xoe,{children:[f.jsx(jf,{component:qr,to:"solo",children:"Solo Registration"}),n.isCa||f.jsx(jf,{component:qr,to:"ca",children:"CA Registration"}),n.isCa&&f.jsx(jf,{component:qr,to:"solobulk",children:"Bulk Registration"})]})]})]}),f.jsx(tn,{position:{right:0,bottom:0},size:.28}),f.jsx(tn,{position:{left:0,top:0},size:.28})]})})]})},$u=({name:e,label:t,value:n,placeholder:r,iconClass:o,errorMsg:i,touched:s,options:a,handleFoucse:l,handleChange:c,handleBlur:u,...d})=>f.jsx(Jb,{children:f.jsxs(zm,{children:[f.jsx(Bm,{htmlFor:e,errorMsg:i,children:t}),f.jsxs(hre,{labelId:"demo-simple-select-label",value:n,name:e,errorMsg:i,touched:s,onChange:p=>{c(p,e)},onBlur:p=>u(p,e),label:t,onFocus:p=>{l(p,e)},...d,children:[f.jsx(ES,{value:"",selected:!0,children:`Select your ${t}`}),a.map((p,g)=>f.jsx(ES,{value:p.value,children:p.key},g))]}),f.jsx(Um,{className:o,errorMsg:i}),i&&f.jsxs(Vm,{children:[f.jsx("i",{className:"ri-error-warning-fill"}),f.jsx("span",{children:i})]})]})}),Coe=Y.div`
   position: relative;
